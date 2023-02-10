@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class = "wrapper">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')">About</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Skills & Experience</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Contact</button>
+              </div>
+            <div class = "box1">
+                <section class = "hero">
+                    <h1>Amina Jones</h1>
+                    <p>Cybersecurity. Information Science. University of Pittsburgh.</p>
+                </section>
+            </div>
+            <div class = "box2">
+                <section>
+                    <h2>Skills and Experience</h2>
+                    <p>Words, words, words</p>
+                </section>
+            </div>
+            <div class = "box3">
+                <section>
+                    <p>Front-End</p>
+                    <div class="container">
+                        <div class="skills html">90%</div>
+                    </div>
+                    <p>Back-end</p>
+                    <div class="container">
+                        <div class="skills css">80%</div>
+                    </div>
+                    <p>JavaScript</p>
+                    <div class="container">
+                        <div class="skills js">65%</div>
+                    </div>
+                    <p>PHP</p>
+                    <div class="container">
+                        <div class="skills php">60%</div>
+                    </div>
+                </section>
+            </div>
+            <div class = "box4">
+                <section class = "contact">
+                    <h2>Contact</h2>
+                    <form>
+                        <input type="text" id="name" name="name" placeholder="Name"><br>
+                        <input type="text" id="email" name="email" placeholder="Email"><br>
+                        <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+                        <input type="text" id="message" name="message" placeholder="Message"><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </body>
+    </html>

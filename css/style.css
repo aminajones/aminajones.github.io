@@ -1,0 +1,56 @@
+html { height: 100%; }
+body { min-height: 100%; }
+.wrapper {
+    background-color: #dac0a7;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tab {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: grid;
+}
+.box1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100vh;
+}
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    height: 100vh;
+  }
+.box4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 100vh;
+}
+  
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;} 
